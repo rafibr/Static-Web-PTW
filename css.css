@@ -1,0 +1,251 @@
+html{
+	background:#232A34 url('img/step01.jpg') repeat-x;
+}
+
+footer {
+	text-align: center;
+	font-size: 1em;
+	clear: both;
+	margin: 1em;
+	border-top:3px double #e8dfac;
+	padding-top: 1em;
+	line-height:1em;
+	color:white;
+}
+
+/*div:hover,
+div:focus,
+section:hover,
+section:focus,
+table:hover,
+table:focus,
+tr:hover,
+td:hover,
+td:focus,
+tr:focus,
+nav:hover,
+nav:focus,
+li:hover,
+li:focus,
+footer:hover,
+footer:focus{
+	border:solid red;
+}*/
+
+.active{
+	
+	color: darkblue;
+}
+	
+
+div#title h2 a{
+	padding-left: 200px;
+	color:white;
+	text-decoration: none;
+}
+
+div#title h2 a:focus,
+div#title h2 a:hover,
+div#title h2 a.active{
+	text-decoration:underline;
+	font-size:25;
+	color:cyan;
+}
+
+div#container{
+	font-family:helvetica;
+	width: 935px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+section#feature {
+	width:935.9px;
+	height:200px;
+	background: url('img/heartburn_background.jpg') no-repeat;
+	box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
+	-o-box-shadow: 0 0 15px rgba(0,0,0,0.75) inset;
+	border-bottom: 1px solid white;
+	margin-bottom:5px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 15px 3px rgba(0,0,0,0.8);
+	-moz-text-shadow: 0 15px 3px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 15px 3px rgba(0,0,0,0.8);
+	-o-text-shadow: 0 15px 3px rgba(0,0,0,0.8);
+}
+
+section#feature a{
+	text-decoration: none;
+}
+
+section#feature h1{
+	padding-top:0.6em;
+	font-family: Georgia;
+	font-size:40;
+	color: white;
+	text-decoration: none;
+	text-align:center;
+}
+
+section#feature h2{
+	font-family: Georgia;
+	color:white;
+}
+
+section#feature h2:before,
+section#feature h2:after{
+	padding: 0 0.3em;
+	content: '~';
+}
+
+section#content{
+	background:white;
+	padding-top:0.1px;
+}
+
+section#content table{
+	background:white;
+	margin-left:0;
+}
+
+table#main-tab{
+	width:936px;
+	margin-top:9px;
+}
+
+
+table#finder-tab tr td a{
+	text-decoration: none;
+	color: #3c5ee8;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+
+
+table#news tr td a h1{
+	width:50;
+	height:40;
+	padding:50px;
+	color:white;
+	font-size:11;
+	padding-left:200px;
+}
+
+td#news1{
+	background:url('img/news/razer.jpg');
+	
+	height:150px;
+}
+
+td#news2{
+	background:url('img/news/A8.jpg');
+	
+	height:150px;
+}
+
+td#news3{
+	background:url('img/news/iphone x.jpg') no-repeat;
+	
+	height:150px;
+}
+
+table#news tr td a{
+	text-decoration: none;
+}
+
+
+table#news tr td a h1:hover,
+table#news tr td a h1:focus{
+	opacity:0.7;
+}
+
+.sub-title{
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	font-family:georgia;
+	font-size:25px;
+	margin-bottom:20px;
+}
+
+table#lat-dev tr:first-child,
+table#lat-dev tr:nth-child(2),
+table#lat-dev tr:nth-child(3){
+	background:linear-gradient(gray,#D2C7BC);
+	border:0.7em;
+}
+
+table#lat-dev tr td a{
+	text-align:center;
+	text-decoration: none;
+	color: blue;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+table#lat-dev tr td a:focus,
+table#lat-dev tr td a:hover{
+	opacity:0.7;
+	font-weight:bold;
+	color:dark-blue;
+}
+
+tr#trending td a {
+	text-decoration: none;
+	color: #3c5ee8;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+div tr#trending td:hover,
+div tr#trending td:focus{
+	opacity:0.7;
+	font-weight:bold;
+	color:dark-blue;
+}
+
+#latdev{
+	width:320;
+}
+
+nav  li{
+	display:inline;
+	
+	padding: 0.5em 6em 0.6em 5.4em;
+	background:#8291B0;
+	border-top:solid 0.5px;
+}
+
+nav li a{
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+}
+
+nav li a:hover,
+nav li a:focus{
+	color:darkblue;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+	
+}
+
+.und-latdev{
+	height:18em;
+}
+
+table#specs.specs{
+	background:white;
+	border:0.7em;
+}
+
+td.order a{
+	text-decoration: none;
+	color:red;
+	font-weight:bold;
+}
+	
+td.order a:hover,
+td.order a:focus{
+	font-weight:bold;
+	color:blue;
+	font-size:17;
+}
